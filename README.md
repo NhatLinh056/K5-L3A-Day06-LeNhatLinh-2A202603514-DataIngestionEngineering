@@ -45,3 +45,28 @@ Dùng cùng dữ liệu, model và câu hỏi cho cả ba cấu hình. Tách **1
 | Cách nộp bài | [SUBMISSION.md](SUBMISSION.md) |
 
 [data/format-example.json](data/format-example.json) chỉ minh họa định dạng, không phải corpus đủ điều kiện. Phần xử lý và benchmark do bạn tự hiện thực; không bắt buộc xây chatbot.
+
+## Chạy bài làm trong repo này
+
+Corpus hiện dùng *Pride and Prejudice* (Project Gutenberg eBook #1342). Nguồn, quy tắc đếm và 61 chương hợp lệ ghi tại [data/manifest.json](data/manifest.json); 20 câu hỏi và gold evidence ở [benchmark/questions.jsonl](benchmark/questions.jsonl). Kiểm tra quyền tại nơi sử dụng trước khi chia sẻ lại file gốc.
+
+Trong PowerShell, từ thư mục `starter/`:
+
+Tải bản Plain Text UTF-8 từ https://www.gutenberg.org/ebooks/1342, lưu tại `starter/data/pride_and_prejudice_raw.txt`. File raw và các chương được bỏ qua khi commit; người chấm có thể tải lại từ URL và chạy lệnh tách dưới đây. Chỉ chia sẻ lại văn bản khi đã kiểm tra quyền tại nơi sử dụng.
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+if (-not (Test-Path .env)) { Copy-Item .env.example .env }
+.\.venv\Scripts\python.exe scripts/split_chapters.py
+.\.venv\Scripts\python.exe -m scripts.build_manifest
+docker compose -p day6_student_starter up -d --wait
+.\.venv\Scripts\python.exe scripts/check_setup.py
+.\.venv\Scripts\python.exe -m scripts.check_corpus
+.\.venv\Scripts\python.exe -m src.run
+.\.venv\Scripts\python.exe -m scripts.prepare_audit
+```
+
+`src.run` dùng cùng model `sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2` và pgvector cosine exact cho A (800 ký tự, overlap 80), B (theo đoạn, tối đa 800 ký tự), C (như B, lọc `chapter` khi câu hỏi cung cấp). Lần đầu chạy cần mạng để tải model. Kết quả nằm trong `results/summary.json` và `results/traces.jsonl`; ba file `results/*_audit.csv` chứa nhãn AI hỗ trợ đã được học viên xác nhận. `starter/.env` và `starter/.venv` không được commit.
+
+Nếu lệnh `python` trên Windows trỏ nhầm tới WindowsApps, dùng đường dẫn tới Python 3.11–3.14 đã cài để tạo `.venv`. Trên máy làm lab này, Python ở `C:\Users\lun19\AppData\Local\Python\bin\python.exe`.

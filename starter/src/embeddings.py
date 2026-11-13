@@ -1,4 +1,4 @@
-"""Choose a real embedding provider (API or local) and implement this contract."""
+"""Local semantic embeddings shared by every strategy."""
 from typing import Protocol
 
 
@@ -16,14 +16,19 @@ class Embedder(Protocol):
 
 
 class MyEmbedder:
-    """TODO: implement a provider adapter; do not silently fall back to mock vectors."""
+    """Sentence Transformers model; errors are reported, never mocked."""
 
     def __init__(self, model_name: str) -> None:
+        from sentence_transformers import SentenceTransformer
+
         self.model_name = model_name
-        raise NotImplementedError("TODO: initialize real embedder and dimensions")
+        self.model = SentenceTransformer(model_name)
+        self.dimensions = self.model.get_embedding_dimension()
+        if not self.dimensions:
+            raise ValueError("Embedding model did not report dimensions")
 
     def embed_documents(self, texts: list[str]) -> list[list[float]]:
-        raise NotImplementedError("TODO: embed_documents")
+        return self.model.encode(texts, batch_size=32, show_progress_bar=True).tolist()
 
     def embed_query(self, question: str) -> list[float]:
-        raise NotImplementedError("TODO: embed_query")
+        return self.model.encode(question).tolist()

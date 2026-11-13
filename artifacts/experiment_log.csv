@@ -1,4 +1,4 @@
 strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+A,fixed characters,800,80,document_id|source|page|chapter,none,paraphrase-multilingual-MiniLM-L12-v2,Fixed windows may cut evidence across boundaries,4/15,7/15,0/5,2/5,Selected on dev by the predeclared tie break of fewer chunks
+B,paragraph grouped,800,0,document_id|source|page|chapter,none,paraphrase-multilingual-MiniLM-L12-v2,Paragraph grouping may keep complete ideas more often,4/15,7/15,0/5,2/5,
+C,paragraph grouped,800,0,document_id|source|page|chapter,chapter when supplied,paraphrase-multilingual-MiniLM-L12-v2,Chapter filter may improve questions with explicit chapter context,4/15,7/15,0/5,3/5,Test gain on q18; not used to revise selected strategy

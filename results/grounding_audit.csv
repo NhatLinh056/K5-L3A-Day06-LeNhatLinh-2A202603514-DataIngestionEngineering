@@ -1,0 +1,168 @@
+﻿"strategy","question_id","question","expected_answer","gold_evidence","top3_text","score_0_1_2","reason","reviewer"
+"A","q16","Khuôn viên Pemberley được miêu tả có quy mô và địa hình thế nào?","Rất rộng và có nhiều dạng địa hình","The park was very large, and contained great variety of ground.","whether Pemberley were not a very fine place, what was the name of its proprietor, and, with no little alarm, whether the family were down for the summer? A most welcome negative followed the last question; and her alarms being now removed, she was at leisure to feel a great deal of curiosity to see the house herself; and when the subject was revived the next morning, and she was again applied to, could readily answer, and with a proper air of indifference, that she had not really any dislike to the scheme.
+
+To Pemberley, therefore, they were to go.
+---
+Elizabeth, as they drove along, watched for the first appearance of Pemberley Woods with some perturbation; and when at length they turned in at the lodge, her spirits were in a high flutter.
+
+The park was very large, and contained great variety of ground. They entered it in one of its lowest points, and drove for some time through a beautiful wood stretching over a wide extent.
+
+Elizabeth’s mind was too full for conversation, but she saw and admired every remarkable spot and point of view. They gradually ascended for half a mile, and then found themselves at the top of a considerable eminence, where the wood ceased, and the eye was instantly caught by Pemberley House, situated on the opposite side of the valley, into which the road with some abruptness wound. It was a large, handsome ston
+---
+d seen Pemberley, and known the late Mr. Darcy by character perfectly well. Here, consequently, was an inexhaustible subject of discourse. In comparing her recollection of Pemberley with the minute description which Wickham could give, and in bestowing her tribute of praise on the character of its late possessor, she was delighting both him and herself. On being made acquainted with the present Mr. Darcy’s treatment of him, she tried to remember something of that gentleman’s reputed disposition, when quite a lad, which might agree with it; and was confident, at last, that she recollected having heard Mr. Fitzwilliam Darcy formerly spoken of as a very proud, ill-natured boy.","2","Top-3 includes chapter 43 describing Pemberley park as large with varied ground.","Lê Nhật Linh (đã duyệt bản nháp AI hỗ trợ)"
+"A","q17","Elizabeth nhận được mấy lá thư từ Jane cùng lúc?","Hai lá thư","by the receipt of two letters from her at once","er was delivered to Miss Bennet; it came from Netherfield, and was opened immediately. The envelope contained a sheet of elegant, little, hot-pressed paper, well covered with a lady’s fair, flowing hand; and Elizabeth saw her sister’s countenance change as she read it, and saw her dwelling intently on some particular passages. Jane recollected herself soon; and putting the letter away, tried to join, with her usual cheerfulness, in the general conversation: but Elizabeth felt an anxiety on the subject which drew off her attention even from Wickham; and no sooner had he and his companion taken leave, than a glance from Jane invited her to follow her upstairs. When they had gained their own room, Jane, taking out her letter, said, “This is from Caroline Bingley: what it contains has surprise
+---
+Elizabeth had been a good deal disappointed in not finding a letter from Jane on their first arrival at Lambton; and this disappointment had been renewed on each of the mornings that had now been spent there; but on the third her repining was over, and her sister justified, by the receipt of two letters from her at once, on one of which was marked that it had been mis-sent elsewhere. Elizabeth was not surprised at it, as Jane had written the direction remarkably ill.
+
+They had just been preparing to walk as the letters came in; and her uncle and aunt, leaving her to enjoy them in quiet, set off by themselves. The one mis-sent must be first attended to; it had been written five days ago. The beginning contained an account of all their little parties and engagements, with such news as the co
+---
+Elizabeth passed the chief of the night in her sister’s room, and in the morning had the pleasure of being able to send a tolerable answer to the inquiries which she very early received from Mr. Bingley by a housemaid, and some time afterwards from the two elegant ladies who waited on his sisters. In spite of this amendment, however, she requested to have a note sent to Longbourn, desiring her mother to visit Jane, and form her own judgment of her situation. The note was immediately despatched, and its contents as quickly complied with. Mrs. Bennet, accompanied by her two youngest girls, reached Netherfield soon after the family breakfast.
+
+Had she found Jane in any apparent danger, Mrs. Bennet would have been very miserable; but being satisfied on seeing her that her illness was not alarm","2","Top-3 includes chapter 46 stating Elizabeth received two letters from Jane.","Lê Nhật Linh (đã duyệt bản nháp AI hỗ trợ)"
+"A","q18","Trong chương 49, ai gửi thư nhanh cho ông Bennet?","Ông Gardiner","there is an express come for master from Mr. Gardiner?","The whole party were in hopes of a letter from Mr. Bennet the next morning, but the post came in without bringing a single line from him. His family knew him to be, on all common occasions, a most negligent and dilatory correspondent; but at such a time they had hoped for exertion. They were forced to conclude, that he had no pleasing intelligence to send; but even of _that_ they would have been glad to be certain. Mr. Gardiner had waited only for the letters before he set off.
+
+When he was gone, they were certain at least of receiving constant information of what was going on; and their uncle promised, at parting, to prevail on Mr. Bennet to return to Longbourn as soon as he could, to the great consolation of his sister, who considered it as the only security for her husband’s not being k
+---
+as eager in it, he meant to assist him in pursuing it. He added, that Mr. Bennet seemed wholly disinclined at present to leave London, and promised to write again very soon. There was also a postscript to this effect:--
+
+“I have written to Colonel Forster to desire him to find out, if possible, from some of the young man’s intimates in the regiment, whether Wickham has any relations or connections who would be likely to know in what part of the town he has now concealed himself. If there were anyone that one could apply to, with a probability of gaining such a clue as that, it might be of essential consequence. At present we have nothing to guide us. Colonel Forster will, I dare say, do everything in his power to satisfy us on this head. But, on second thoughts, perhaps Lizzy could tell us
+---
+
+When Mr. Bennet arrived, he had all the appearance of his usual philosophic composure. He said as little as he had ever been in the habit of saying; made no mention of the business that had taken him away; and it was some time before his daughters had courage to speak of it.
+
+It was not till the afternoon, when he joined them at tea, that Elizabeth ventured to introduce the subject; and then, on her briefly expressing her sorrow for what he must have endured, he replied, “Say nothing of that. Who should suffer but myself? It has been my own doing, and I ought to feel it.”
+
+“You must not be too severe upon yourself,” replied Elizabeth.
+
+“You may well warn me against such an evil. Human nature is so prone to fall into it! No, Lizzy, let me once in my life feel how much I have been to blame.","0","Top-3 misses chapter 49; other letters do not identify the express sender.","Lê Nhật Linh (đã duyệt bản nháp AI hỗ trợ)"
+"A","q19","Ai đến thăm gia đình Bennet một mình trong chương 55?","Ông Bingley","Mr. Bingley called again, and alone.","ve of the whole party in the liveliest spirits.
+
+They were not welcomed home very cordially by their mother. Mrs. Bennet wondered at their coming, and thought them very wrong to give so much trouble, and was sure Jane would have caught cold again. But their father, though very laconic in his expressions of pleasure, was really glad to see them; he had felt their importance in the family circle. The evening conversation, when they were all assembled, had lost much of its animation, and almost all its sense, by the absence of Jane and Elizabeth.
+
+They found Mary, as usual, deep in the study of thorough bass and human nature; and had some new extracts to admire and some new observations of threadbare morality to listen to. Catherine and Lydia had information for them of a different sort. Much
+---
+
+When Mr. Bennet arrived, he had all the appearance of his usual philosophic composure. He said as little as he had ever been in the habit of saying; made no mention of the business that had taken him away; and it was some time before his daughters had courage to speak of it.
+
+It was not till the afternoon, when he joined them at tea, that Elizabeth ventured to introduce the subject; and then, on her briefly expressing her sorrow for what he must have endured, he replied, “Say nothing of that. Who should suffer but myself? It has been my own doing, and I ought to feel it.”
+
+“You must not be too severe upon yourself,” replied Elizabeth.
+
+“You may well warn me against such an evil. Human nature is so prone to fall into it! No, Lizzy, let me once in my life feel how much I have been to blame.
+---
+gibility and suitableness, and excessively generous and disinterested on his own part.
+
+His plan did not vary on seeing them. Miss Bennet’s lovely face confirmed his views, and established all his strictest notions of what was due to seniority; and for the first evening _she_ was his settled choice. The next morning, however, made an alteration; for in a quarter of an hour’s _tête-à-tête_ with Mrs. Bennet before breakfast, a conversation beginning with his parsonage-house, and leading naturally to the avowal of his hopes, that a mistress for it might be found at Longbourn, produced from her, amid very complaisant smiles and general encouragement, a caution against the very Jane he had fixed on. “As to her _younger_ daughters, she could not take upon her to say--she could not positively ans","0","Top-3 misses chapter 55; other visits do not establish who called alone then.","Lê Nhật Linh (đã duyệt bản nháp AI hỗ trợ)"
+"A","q20","Hai người nào đi chậm để những người khác vượt lên?","Bingley và Jane","Bingley and Jane, however, soon allowed the others to outstrip them.","n; but their progress was slow, for Mr. Gardiner, though seldom able to indulge the taste, was very fond of fishing, and was so much engaged in watching the occasional appearance of some trout in the water, and talking to the man about them, that he advanced but little. Whilst wandering on in this slow manner, they were again surprised, and Elizabeth’s astonishment was quite equal to what it had been at first, by the sight of Mr. Darcy approaching them, and at no great distance. The walk being here less sheltered than on the other side, allowed them to see him before they met. Elizabeth, however astonished, was at least more prepared for an interview than before, and resolved to appear and to speak with calmness, if he really intended to meet them. For a few moments, indeed, she felt that
+---
+ appearance of humility. It is often only carelessness of opinion, and sometimes an indirect boast.”
+
+“And which of the two do you call _my_ little recent piece of modesty?”
+
+“The indirect boast; for you are really proud of your defects in writing, because you consider them as proceeding from a rapidity of thought and carelessness of execution, which, if not estimable, you think at least highly interesting. The power of doing anything with quickness is always much prized by the possessor, and often without any attention to the imperfection of the performance. When you told Mrs. Bennet this morning, that if you ever resolved on quitting Netherfield you should be gone in five minutes, you meant it to be a sort of panegyric, of compliment to yourself; and yet what is there so very laudable in
+---
+ what is required.”
+
+“We will go as far as Meryton with you,” said Catherine and Lydia. Elizabeth accepted their company, and the three young ladies set off together.
+
+“If we make haste,” said Lydia, as they walked along, “perhaps we may see something of Captain Carter, before he goes.”
+
+In Meryton they parted: the two youngest repaired to the lodgings of one of the officers’ wives, and Elizabeth continued her walk alone, crossing field after field at a quick pace, jumping over stiles and springing over puddles, with impatient activity, and finding herself at last within view of the house, with weary ancles, dirty stockings, and a face glowing with the warmth of exercise.
+
+She was shown into the breakfast parlour, where all but Jane were assembled, and where her appearance created a great ","0","Top-3 misses chapter 58; other walks do not identify the pair who lagged behind.","Lê Nhật Linh (đã duyệt bản nháp AI hỗ trợ)"
+"B","q16","Khuôn viên Pemberley được miêu tả có quy mô và địa hình thế nào?","Rất rộng và có nhiều dạng địa hình","The park was very large, and contained great variety of ground.","Elizabeth’s mind was too full for conversation, but she saw and admired every remarkable spot and point of view. They gradually ascended for half a mile, and then found themselves at the top of a considerable eminence, where the wood ceased, and the eye was instantly caught by Pemberley House, situated on the opposite side of the valley, into which the road with some abruptness wound. It was a large, handsome stone building, standing well on rising ground, and backed by a ridge of high woody hills; and in front a stream of some natural importance was swelled into greater, but without any artificial appearance. Its banks were neither formal nor falsely adorned. Elizabeth was delighted. She had never seen a place for which nature had done more, or where natural beauty had been so little coun
+---
+Elizabeth, as they drove along, watched for the first appearance of Pemberley Woods with some perturbation; and when at length they turned in at the lodge, her spirits were in a high flutter.
+
+The park was very large, and contained great variety of ground. They entered it in one of its lowest points, and drove for some time through a beautiful wood stretching over a wide extent.
+---
+Mrs. Gardiner had seen Pemberley, and known the late Mr. Darcy by character perfectly well. Here, consequently, was an inexhaustible subject of discourse. In comparing her recollection of Pemberley with the minute description which Wickham could give, and in bestowing her tribute of praise on the character of its late possessor, she was delighting both him and herself. On being made acquainted with the present Mr. Darcy’s treatment of him, she tried to remember something of that gentleman’s reputed disposition, when quite a lad, which might agree with it; and was confident, at last, that she recollected having heard Mr. Fitzwilliam Darcy formerly spoken of as a very proud, ill-natured boy.","2","Top-3 includes chapter 43 describing Pemberley park as large with varied ground.","Lê Nhật Linh (đã duyệt bản nháp AI hỗ trợ)"
+"B","q17","Elizabeth nhận được mấy lá thư từ Jane cùng lúc?","Hai lá thư","by the receipt of two letters from her at once","Jane then took it from her pocket-book, and gave it to Elizabeth. These were the contents:--
+
+/* NIND “My dear Harriet, */
+---
+Soon after their return, a letter was delivered to Miss Bennet; it came from Netherfield, and was opened immediately. The envelope contained a sheet of elegant, little, hot-pressed paper, well covered with a lady’s fair, flowing hand; and Elizabeth saw her sister’s countenance change as she read it, and saw her dwelling intently on some particular passages. Jane recollected herself soon; and putting the letter away, tried to join, with her usual cheerfulness, in the general conversation: but Elizabeth felt an anxiety on the subject which drew off her attention even from Wickham; and no sooner had he and his companion taken leave, than a glance from Jane invited her to follow her upstairs. When they had gained their own room, Jane, taking out her letter, said, “This is from Caroline Bingley
+---
+Elizabeth had been a good deal disappointed in not finding a letter from Jane on their first arrival at Lambton; and this disappointment had been renewed on each of the mornings that had now been spent there; but on the third her repining was over, and her sister justified, by the receipt of two letters from her at once, on one of which was marked that it had been mis-sent elsewhere. Elizabeth was not surprised at it, as Jane had written the direction remarkably ill.","2","Top-3 includes chapter 46 stating Elizabeth received two letters from Jane.","Lê Nhật Linh (đã duyệt bản nháp AI hỗ trợ)"
+"B","q18","Trong chương 49, ai gửi thư nhanh cho ông Bennet?","Ông Gardiner","there is an express come for master from Mr. Gardiner?","The whole party were in hopes of a letter from Mr. Bennet the next morning, but the post came in without bringing a single line from him. His family knew him to be, on all common occasions, a most negligent and dilatory correspondent; but at such a time they had hoped for exertion. They were forced to conclude, that he had no pleasing intelligence to send; but even of _that_ they would have been glad to be certain. Mr. Gardiner had waited only for the letters before he set off.
+---
+His plan did not vary on seeing them. Miss Bennet’s lovely face confirmed his views, and established all his strictest notions of what was due to seniority; and for the first evening _she_ was his settled choice. The next morning, however, made an alteration; for in a quarter of an hour’s _tête-à-tête_ with Mrs. Bennet before breakfast, a conversation beginning with his parsonage-house, and leading naturally to the avowal of his hopes, that a mistress for it might be found at Longbourn, produced from her, amid very complaisant smiles and general encouragement, a caution against the very Jane he had fixed on. “As to her _younger_ daughters, she could not take upon her to say--she could not positively answer--but she did not _know_ of any prepossession;--her _eldest_ daughter she must just m
+---
+ from Mrs. Bennet’s civilities.","0","Top-3 misses chapter 49; other letters do not identify the express sender.","Lê Nhật Linh (đã duyệt bản nháp AI hỗ trợ)"
+"B","q19","Ai đến thăm gia đình Bennet một mình trong chương 55?","Ông Bingley","Mr. Bingley called again, and alone."," from Mrs. Bennet’s civilities.
+---
+His plan did not vary on seeing them. Miss Bennet’s lovely face confirmed his views, and established all his strictest notions of what was due to seniority; and for the first evening _she_ was his settled choice. The next morning, however, made an alteration; for in a quarter of an hour’s _tête-à-tête_ with Mrs. Bennet before breakfast, a conversation beginning with his parsonage-house, and leading naturally to the avowal of his hopes, that a mistress for it might be found at Longbourn, produced from her, amid very complaisant smiles and general encouragement, a caution against the very Jane he had fixed on. “As to her _younger_ daughters, she could not take upon her to say--she could not positively answer--but she did not _know_ of any prepossession;--her _eldest_ daughter she must just m
+---
+re entertained.
+
+“If I can but see one of my daughters happily settled at Netherfield,” said Mrs. Bennet to her husband, “and all the others equally well married, I shall have nothing to wish for.”
+
+In a few days Mr. Bingley returned Mr. Bennet’s visit, and sat about ten minutes with him in his library. He had entertained hopes of being admitted to a sight of the young ladies, of whose beauty he had heard much; but he saw only the father. The ladies were somewhat more fortunate, for they had the advantage of ascertaining, from an upper window, that he wore a blue coat and rode a black horse.","0","Top-3 misses chapter 55; other visits do not establish who called alone then.","Lê Nhật Linh (đã duyệt bản nháp AI hỗ trợ)"
+"B","q20","Hai người nào đi chậm để những người khác vượt lên?","Bingley và Jane","Bingley and Jane, however, soon allowed the others to outstrip them.","“The indirect boast; for you are really proud of your defects in writing, because you consider them as proceeding from a rapidity of thought and carelessness of execution, which, if not estimable, you think at least highly interesting. The power of doing anything with quickness is always much prized by the possessor, and often without any attention to the imperfection of the performance. When you told Mrs. Bennet this morning, that if you ever resolved on quitting Netherfield you should be gone in five minutes, you meant it to be a sort of panegyric, of compliment to yourself; and yet what is there so very laudable in a precipitance which must leave very necessary business undone, and can be of no real advantage to yourself or anyone else?”
+---
+“No, indeed. I do not wish to avoid the walk. The distance is nothing, when one has a motive; only three miles. I shall be back by dinner.”
+
+“I admire the activity of your benevolence,” observed Mary, “but every impulse of feeling should be guided by reason; and, in my opinion, exertion should always be in proportion to what is required.”
+
+“We will go as far as Meryton with you,” said Catherine and Lydia. Elizabeth accepted their company, and the three young ladies set off together.
+
+“If we make haste,” said Lydia, as they walked along, “perhaps we may see something of Captain Carter, before he goes.”
+---
+ talking to the man about them, that he advanced but little. Whilst wandering on in this slow manner, they were again surprised, and Elizabeth’s astonishment was quite equal to what it had been at first, by the sight of Mr. Darcy approaching them, and at no great distance. The walk being here less sheltered than on the other side, allowed them to see him before they met. Elizabeth, however astonished, was at least more prepared for an interview than before, and resolved to appear and to speak with calmness, if he really intended to meet them. For a few moments, indeed, she felt that he would probably strike into some other path. The idea lasted while a turning in the walk concealed him from their view; the turning past, he was immediately before them. With a glance she saw that he had lost","0","Top-3 misses chapter 58; other walks do not identify the pair who lagged behind.","Lê Nhật Linh (đã duyệt bản nháp AI hỗ trợ)"
+"C","q16","Khuôn viên Pemberley được miêu tả có quy mô và địa hình thế nào?","Rất rộng và có nhiều dạng địa hình","The park was very large, and contained great variety of ground.","Elizabeth’s mind was too full for conversation, but she saw and admired every remarkable spot and point of view. They gradually ascended for half a mile, and then found themselves at the top of a considerable eminence, where the wood ceased, and the eye was instantly caught by Pemberley House, situated on the opposite side of the valley, into which the road with some abruptness wound. It was a large, handsome stone building, standing well on rising ground, and backed by a ridge of high woody hills; and in front a stream of some natural importance was swelled into greater, but without any artificial appearance. Its banks were neither formal nor falsely adorned. Elizabeth was delighted. She had never seen a place for which nature had done more, or where natural beauty had been so little coun
+---
+Elizabeth, as they drove along, watched for the first appearance of Pemberley Woods with some perturbation; and when at length they turned in at the lodge, her spirits were in a high flutter.
+
+The park was very large, and contained great variety of ground. They entered it in one of its lowest points, and drove for some time through a beautiful wood stretching over a wide extent.
+---
+Mrs. Gardiner had seen Pemberley, and known the late Mr. Darcy by character perfectly well. Here, consequently, was an inexhaustible subject of discourse. In comparing her recollection of Pemberley with the minute description which Wickham could give, and in bestowing her tribute of praise on the character of its late possessor, she was delighting both him and herself. On being made acquainted with the present Mr. Darcy’s treatment of him, she tried to remember something of that gentleman’s reputed disposition, when quite a lad, which might agree with it; and was confident, at last, that she recollected having heard Mr. Fitzwilliam Darcy formerly spoken of as a very proud, ill-natured boy.","2","Top-3 includes chapter 43 describing Pemberley park as large with varied ground.","Lê Nhật Linh (đã duyệt bản nháp AI hỗ trợ)"
+"C","q17","Elizabeth nhận được mấy lá thư từ Jane cùng lúc?","Hai lá thư","by the receipt of two letters from her at once","Jane then took it from her pocket-book, and gave it to Elizabeth. These were the contents:--
+
+/* NIND “My dear Harriet, */
+---
+Soon after their return, a letter was delivered to Miss Bennet; it came from Netherfield, and was opened immediately. The envelope contained a sheet of elegant, little, hot-pressed paper, well covered with a lady’s fair, flowing hand; and Elizabeth saw her sister’s countenance change as she read it, and saw her dwelling intently on some particular passages. Jane recollected herself soon; and putting the letter away, tried to join, with her usual cheerfulness, in the general conversation: but Elizabeth felt an anxiety on the subject which drew off her attention even from Wickham; and no sooner had he and his companion taken leave, than a glance from Jane invited her to follow her upstairs. When they had gained their own room, Jane, taking out her letter, said, “This is from Caroline Bingley
+---
+Elizabeth had been a good deal disappointed in not finding a letter from Jane on their first arrival at Lambton; and this disappointment had been renewed on each of the mornings that had now been spent there; but on the third her repining was over, and her sister justified, by the receipt of two letters from her at once, on one of which was marked that it had been mis-sent elsewhere. Elizabeth was not surprised at it, as Jane had written the direction remarkably ill.","2","Top-3 includes chapter 46 stating Elizabeth received two letters from Jane.","Lê Nhật Linh (đã duyệt bản nháp AI hỗ trợ)"
+"C","q18","Trong chương 49, ai gửi thư nhanh cho ông Bennet?","Ông Gardiner","there is an express come for master from Mr. Gardiner?","Elizabeth took the letter from his writing-table, and they went upstairs together. Mary and Kitty were both with Mrs. Bennet: one communication would, therefore, do for all. After a slight preparation for good news, the letter was read aloud. Mrs. Bennet could hardly contain herself. As soon as Jane had read Mr. Gardiner’s hope of Lydia’s being soon married, her joy burst forth, and every following sentence added to its exuberance. She was now in an irritation as violent from delight as she had ever been fidgety from alarm and vexation. To know that her daughter would be married was enough. She was disturbed by no fear for her felicity, nor humbled by any remembrance of her misconduct.
+---
+Two days after Mr. Bennet’s return, as Jane and Elizabeth were walking together in the shrubbery behind the house, they saw the housekeeper coming towards them, and concluding that she came to call them to their mother, went forward to meet her; but instead of the expected summons, when they approached her, she said to Miss Bennet, “I beg your pardon, madam, for interrupting you, but I was in hopes you might have got some good news from town, so I took the liberty of coming to ask.”
+
+“What do you mean, Hill? We have heard nothing from town.”
+
+“Dear madam,” cried Mrs. Hill, in great astonishment, “don’t you know there is an express come for master from Mr. Gardiner? He has been here this half hour, and master has had a letter.”
+---
+“Oh, papa, what news? what news? have you heard from my uncle?”
+
+“Yes, I have had a letter from him by express.”
+
+“Well, and what news does it bring--good or bad?”
+
+“What is there of good to be expected?” said he, taking the letter from his pocket; “but perhaps you would like to read it.”
+
+Elizabeth impatiently caught it from his hand. Jane now came up.
+
+“Read it aloud,” said their father, “for I hardly know myself what it is about.”
+
+/* RIGHT “Gracechurch Street, _Monday, August 2_. */
+
+“My dear Brother,","2","Top-3 includes chapter 49 naming Mr. Gardiner as sender of the express.","Lê Nhật Linh (đã duyệt bản nháp AI hỗ trợ)"
+"C","q19","Ai đến thăm gia đình Bennet một mình trong chương 55?","Ông Bingley","Mr. Bingley called again, and alone."," from Mrs. Bennet’s civilities.
+---
+His plan did not vary on seeing them. Miss Bennet’s lovely face confirmed his views, and established all his strictest notions of what was due to seniority; and for the first evening _she_ was his settled choice. The next morning, however, made an alteration; for in a quarter of an hour’s _tête-à-tête_ with Mrs. Bennet before breakfast, a conversation beginning with his parsonage-house, and leading naturally to the avowal of his hopes, that a mistress for it might be found at Longbourn, produced from her, amid very complaisant smiles and general encouragement, a caution against the very Jane he had fixed on. “As to her _younger_ daughters, she could not take upon her to say--she could not positively answer--but she did not _know_ of any prepossession;--her _eldest_ daughter she must just m
+---
+re entertained.
+
+“If I can but see one of my daughters happily settled at Netherfield,” said Mrs. Bennet to her husband, “and all the others equally well married, I shall have nothing to wish for.”
+
+In a few days Mr. Bingley returned Mr. Bennet’s visit, and sat about ten minutes with him in his library. He had entertained hopes of being admitted to a sight of the young ladies, of whose beauty he had heard much; but he saw only the father. The ladies were somewhat more fortunate, for they had the advantage of ascertaining, from an upper window, that he wore a blue coat and rode a black horse.","0","Top-3 misses chapter 55; other visits do not establish who called alone then.","Lê Nhật Linh (đã duyệt bản nháp AI hỗ trợ)"
+"C","q20","Hai người nào đi chậm để những người khác vượt lên?","Bingley và Jane","Bingley and Jane, however, soon allowed the others to outstrip them.","“The indirect boast; for you are really proud of your defects in writing, because you consider them as proceeding from a rapidity of thought and carelessness of execution, which, if not estimable, you think at least highly interesting. The power of doing anything with quickness is always much prized by the possessor, and often without any attention to the imperfection of the performance. When you told Mrs. Bennet this morning, that if you ever resolved on quitting Netherfield you should be gone in five minutes, you meant it to be a sort of panegyric, of compliment to yourself; and yet what is there so very laudable in a precipitance which must leave very necessary business undone, and can be of no real advantage to yourself or anyone else?”
+---
+“No, indeed. I do not wish to avoid the walk. The distance is nothing, when one has a motive; only three miles. I shall be back by dinner.”
+
+“I admire the activity of your benevolence,” observed Mary, “but every impulse of feeling should be guided by reason; and, in my opinion, exertion should always be in proportion to what is required.”
+
+“We will go as far as Meryton with you,” said Catherine and Lydia. Elizabeth accepted their company, and the three young ladies set off together.
+
+“If we make haste,” said Lydia, as they walked along, “perhaps we may see something of Captain Carter, before he goes.”
+---
+ talking to the man about them, that he advanced but little. Whilst wandering on in this slow manner, they were again surprised, and Elizabeth’s astonishment was quite equal to what it had been at first, by the sight of Mr. Darcy approaching them, and at no great distance. The walk being here less sheltered than on the other side, allowed them to see him before they met. Elizabeth, however astonished, was at least more prepared for an interview than before, and resolved to appear and to speak with calmness, if he really intended to meet them. For a few moments, indeed, she felt that he would probably strike into some other path. The idea lasted while a turning in the walk concealed him from their view; the turning past, he was immediately before them. With a glance she saw that he had lost","0","Top-3 misses chapter 58; other walks do not identify the pair who lagged behind.","Lê Nhật Linh (đã duyệt bản nháp AI hỗ trợ)"

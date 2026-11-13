@@ -1,8 +1,8 @@
 # Thông tin học viên
 
-- Họ và tên:
-- MSSV:
-- Lớp: L3A / L3B / khác:
-- Chủ đề và corpus:
-- Repo bài nộp:
+- Họ và tên: Lê Nhật Linh
+- MSSV: 2A202603514
+- Lớp: L3A
+- Chủ đề và corpus: Truy xuất nội dung tiểu thuyết *Pride and Prejudice*, Project Gutenberg eBook #1342
+- Repo bài nộp: https://github.com/NhatLinh056/K5-L3A-Day06-LeNhatLinh-2A202603514-DataIngestionEngineering
 - Commit chốt bài:

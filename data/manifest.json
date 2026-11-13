@@ -1,0 +1,319 @@
+{
+  "source_id": "pride_and_prejudice",
+  "title": "Pride and Prejudice",
+  "author": "Jane Austen",
+  "source_path_or_url": "https://www.gutenberg.org/ebooks/1342",
+  "local_raw_path": "starter/data/pride_and_prejudice_raw.txt",
+  "license_or_permission": "Project Gutenberg lists the text as public domain in the USA; verify local rights and Project Gutenberg terms before redistributing.",
+  "accessed_at": "2026-11-13",
+  "snapshot": "Project Gutenberg eBook #1342; raw file states updated September 1, 2026",
+  "raw_sha256": "3f6bb9d6f78e0293b56acd4714dd68cb7d6d1d293402031ce9d5a216bcaf9d75",
+  "count_rule": "One source chapter with at least 1500 characters after Unicode and whitespace normalization; front matter, illustrations, printer note, and license excluded.",
+  "pages": [
+    {
+      "page_id": "chapter_01",
+      "page": 1,
+      "normalized_characters": 4487
+    },
+    {
+      "page_id": "chapter_02",
+      "page": 2,
+      "normalized_characters": 4307
+    },
+    {
+      "page_id": "chapter_03",
+      "page": 3,
+      "normalized_characters": 9564
+    },
+    {
+      "page_id": "chapter_04",
+      "page": 4,
+      "normalized_characters": 5934
+    },
+    {
+      "page_id": "chapter_05",
+      "page": 5,
+      "normalized_characters": 5272
+    },
+    {
+      "page_id": "chapter_06",
+      "page": 6,
+      "normalized_characters": 13028
+    },
+    {
+      "page_id": "chapter_07",
+      "page": 7,
+      "normalized_characters": 11194
+    },
+    {
+      "page_id": "chapter_08",
+      "page": 8,
+      "normalized_characters": 11008
+    },
+    {
+      "page_id": "chapter_09",
+      "page": 9,
+      "normalized_characters": 9771
+    },
+    {
+      "page_id": "chapter_10",
+      "page": 10,
+      "normalized_characters": 12501
+    },
+    {
+      "page_id": "chapter_11",
+      "page": 11,
+      "normalized_characters": 8949
+    },
+    {
+      "page_id": "chapter_12",
+      "page": 12,
+      "normalized_characters": 3930
+    },
+    {
+      "page_id": "chapter_13",
+      "page": 13,
+      "normalized_characters": 9306
+    },
+    {
+      "page_id": "chapter_14",
+      "page": 14,
+      "normalized_characters": 6445
+    },
+    {
+      "page_id": "chapter_15",
+      "page": 15,
+      "normalized_characters": 9792
+    },
+    {
+      "page_id": "chapter_16",
+      "page": 16,
+      "normalized_characters": 19079
+    },
+    {
+      "page_id": "chapter_17",
+      "page": 17,
+      "normalized_characters": 7278
+    },
+    {
+      "page_id": "chapter_18",
+      "page": 18,
+      "normalized_characters": 29189
+    },
+    {
+      "page_id": "chapter_19",
+      "page": 19,
+      "normalized_characters": 10671
+    },
+    {
+      "page_id": "chapter_20",
+      "page": 20,
+      "normalized_characters": 9188
+    },
+    {
+      "page_id": "chapter_21",
+      "page": 21,
+      "normalized_characters": 11294
+    },
+    {
+      "page_id": "chapter_22",
+      "page": 22,
+      "normalized_characters": 10007
+    },
+    {
+      "page_id": "chapter_23",
+      "page": 23,
+      "normalized_characters": 9323
+    },
+    {
+      "page_id": "chapter_24",
+      "page": 24,
+      "normalized_characters": 10833
+    },
+    {
+      "page_id": "chapter_25",
+      "page": 25,
+      "normalized_characters": 8602
+    },
+    {
+      "page_id": "chapter_26",
+      "page": 26,
+      "normalized_characters": 12777
+    },
+    {
+      "page_id": "chapter_27",
+      "page": 27,
+      "normalized_characters": 7225
+    },
+    {
+      "page_id": "chapter_28",
+      "page": 28,
+      "normalized_characters": 8234
+    },
+    {
+      "page_id": "chapter_29",
+      "page": 29,
+      "normalized_characters": 13688
+    },
+    {
+      "page_id": "chapter_30",
+      "page": 30,
+      "normalized_characters": 7063
+    },
+    {
+      "page_id": "chapter_31",
+      "page": 31,
+      "normalized_characters": 8750
+    },
+    {
+      "page_id": "chapter_32",
+      "page": 32,
+      "normalized_characters": 8471
+    },
+    {
+      "page_id": "chapter_33",
+      "page": 33,
+      "normalized_characters": 10388
+    },
+    {
+      "page_id": "chapter_34",
+      "page": 34,
+      "normalized_characters": 12012
+    },
+    {
+      "page_id": "chapter_35",
+      "page": 35,
+      "normalized_characters": 16982
+    },
+    {
+      "page_id": "chapter_36",
+      "page": 36,
+      "normalized_characters": 11795
+    },
+    {
+      "page_id": "chapter_37",
+      "page": 37,
+      "normalized_characters": 7784
+    },
+    {
+      "page_id": "chapter_38",
+      "page": 38,
+      "normalized_characters": 5953
+    },
+    {
+      "page_id": "chapter_39",
+      "page": 39,
+      "normalized_characters": 8794
+    },
+    {
+      "page_id": "chapter_40",
+      "page": 40,
+      "normalized_characters": 9205
+    },
+    {
+      "page_id": "chapter_41",
+      "page": 41,
+      "normalized_characters": 13022
+    },
+    {
+      "page_id": "chapter_42",
+      "page": 42,
+      "normalized_characters": 10635
+    },
+    {
+      "page_id": "chapter_43",
+      "page": 43,
+      "normalized_characters": 27522
+    },
+    {
+      "page_id": "chapter_44",
+      "page": 44,
+      "normalized_characters": 13374
+    },
+    {
+      "page_id": "chapter_45",
+      "page": 45,
+      "normalized_characters": 10103
+    },
+    {
+      "page_id": "chapter_46",
+      "page": 46,
+      "normalized_characters": 16941
+    },
+    {
+      "page_id": "chapter_47",
+      "page": 47,
+      "normalized_characters": 22360
+    },
+    {
+      "page_id": "chapter_48",
+      "page": 48,
+      "normalized_characters": 12576
+    },
+    {
+      "page_id": "chapter_49",
+      "page": 49,
+      "normalized_characters": 12262
+    },
+    {
+      "page_id": "chapter_50",
+      "page": 50,
+      "normalized_characters": 12489
+    },
+    {
+      "page_id": "chapter_51",
+      "page": 51,
+      "normalized_characters": 11242
+    },
+    {
+      "page_id": "chapter_52",
+      "page": 52,
+      "normalized_characters": 16575
+    },
+    {
+      "page_id": "chapter_53",
+      "page": 53,
+      "normalized_characters": 16108
+    },
+    {
+      "page_id": "chapter_54",
+      "page": 54,
+      "normalized_characters": 8842
+    },
+    {
+      "page_id": "chapter_55",
+      "page": 55,
+      "normalized_characters": 13000
+    },
+    {
+      "page_id": "chapter_56",
+      "page": 56,
+      "normalized_characters": 15370
+    },
+    {
+      "page_id": "chapter_57",
+      "page": 57,
+      "normalized_characters": 9414
+    },
+    {
+      "page_id": "chapter_58",
+      "page": 58,
+      "normalized_characters": 13677
+    },
+    {
+      "page_id": "chapter_59",
+      "page": 59,
+      "normalized_characters": 13564
+    },
+    {
+      "page_id": "chapter_60",
+      "page": 60,
+      "normalized_characters": 8714
+    },
+    {
+      "page_id": "chapter_61",
+      "page": 61,
+      "normalized_characters": 7084
+    }
+  ]
+}

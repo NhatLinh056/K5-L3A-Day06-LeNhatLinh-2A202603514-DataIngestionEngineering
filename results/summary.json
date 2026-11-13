@@ -1,0 +1,63 @@
+{
+  "model": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "dimensions": 384,
+  "sentence_transformers_version": "5.7.0",
+  "psycopg_version": "3.3.8",
+  "store": "PostgreSQL + pgvector",
+  "metric": "exact cosine",
+  "cost_usd": 0,
+  "selection_rule": "Highest dev Evidence Hit@3, then dev Hit@1, then fewer chunks",
+  "selected_on_dev": "A",
+  "ingest": {
+    "A": {
+      "chunks": 971,
+      "characters": 757747,
+      "seconds": 15.365,
+      "vectors_reused_from": null
+    },
+    "B": {
+      "chunks": 1095,
+      "characters": 683319,
+      "seconds": 16.524,
+      "vectors_reused_from": null
+    },
+    "C": {
+      "chunks": 1095,
+      "characters": 683319,
+      "seconds": 0.349,
+      "vectors_reused_from": "B"
+    }
+  },
+  "retrieval": {
+    "A_dev": {
+      "questions": 15,
+      "hit1": 4,
+      "evidence_hit3": 7
+    },
+    "B_dev": {
+      "questions": 15,
+      "hit1": 4,
+      "evidence_hit3": 7
+    },
+    "C_dev": {
+      "questions": 15,
+      "hit1": 4,
+      "evidence_hit3": 7
+    },
+    "A_test": {
+      "questions": 5,
+      "hit1": 0,
+      "evidence_hit3": 2
+    },
+    "B_test": {
+      "questions": 5,
+      "hit1": 0,
+      "evidence_hit3": 2
+    },
+    "C_test": {
+      "questions": 5,
+      "hit1": 0,
+      "evidence_hit3": 3
+    }
+  }
+}
