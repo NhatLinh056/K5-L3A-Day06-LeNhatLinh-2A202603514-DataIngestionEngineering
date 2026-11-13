@@ -7,3 +7,5 @@
 - Kiểm tra 45 chunk test: URL nguồn, chương, metadata và text khớp văn bản sạch 45/45.
 - Không gặp lỗi trích text, embedding, lưu vector hoặc truy xuất trong hai lần chạy. Kết quả thấp ở q19/q20 là lỗi truy xuất, đã phân tích trong báo cáo.
 - Model tải lần đầu qua mạng; cache và database local không nằm trong repo. Raw text và các chương được tạo lại theo README.
+- Kiểm tra bổ sung: `python -m unittest discover -s tests -v` chạy 2 test, đều đạt. Test kiểm tra Hit@1/Hit@3 khi evidence thiếu hoặc sai nguồn/trang, và xác nhận 60 trace top-3 khớp `summary.json`.
+- Chạy lại pipeline cho kết quả Hit và thứ tự top-3 y hệt lần trước; thời gian ingest lần cuối nằm trong `summary.json`.

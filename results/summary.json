@@ -12,19 +12,19 @@
     "A": {
       "chunks": 971,
       "characters": 757747,
-      "seconds": 15.365,
+      "seconds": 15.379,
       "vectors_reused_from": null
     },
     "B": {
       "chunks": 1095,
       "characters": 683319,
-      "seconds": 16.524,
+      "seconds": 19.798,
       "vectors_reused_from": null
     },
     "C": {
       "chunks": 1095,
       "characters": 683319,
-      "seconds": 0.349,
+      "seconds": 0.318,
       "vectors_reused_from": "B"
     }
   },

@@ -28,11 +28,11 @@ Chạy ngày 13/11/2026. Hit yêu cầu cùng source/chương và **đủ quote 
 
 | Strategy | Split | Hit@1 | Evidence Hit@3 | Chunk count | Ingest (giây) | API cost |
 |---|---|---:|---:|---:|---:|---:|
-| A | dev | 4/15 | 7/15 | 971 | 15,365 | 0 USD |
+| A | dev | 4/15 | 7/15 | 971 | 15,379 | 0 USD |
 | A | test | 0/5 | 2/5 | 971 | — | 0 USD |
-| B | dev | 4/15 | 7/15 | 1.095 | 16,524 | 0 USD |
+| B | dev | 4/15 | 7/15 | 1.095 | 19,798 | 0 USD |
 | B | test | 0/5 | 2/5 | 1.095 | — | 0 USD |
-| C | dev | 4/15 | 7/15 | 1.095 | 0,349 (tái dùng B) | 0 USD |
+| C | dev | 4/15 | 7/15 | 1.095 | 0,318 (tái dùng B) | 0 USD |
 | C | test | 0/5 | 3/5 | 1.095 | — | 0 USD |
 
 Chọn **A** theo tiêu chí dev đã chốt: ba cấu hình hòa Hit@3 và Hit@1, A có ít chunk hơn. C tốt hơn A trên test (3/5 so với 2/5); đây là quan sát sau chọn, không dùng để chọn lại. Chạy lại pipeline cho đúng số bản ghi 971/1.095/1.095, không nhân đôi; mỗi lần nạp thay trọn bộ chunk của chiến lược trong một transaction nên chunk cũ được xóa khi dữ liệu đổi.
@@ -51,7 +51,7 @@ Coherence dùng cùng 10 vị trí: ký tự 100–140 của 10 chương đầu,
 
 ## Phân tích và kết luận
 
-- **A–B:** B cải thiện coherence từ 1,0 lên 1,7/2 nhưng không tăng Hit@1 hay Hit@3 trên bộ câu hỏi này. B tạo thêm 124 chunk và mất thêm khoảng 1,16 giây ingest trong lần đo cuối. Đo thời gian một lần chịu ảnh hưởng cache và tải máy.
+- **A–B:** B cải thiện coherence từ 1,0 lên 1,7/2 nhưng không tăng Hit@1 hay Hit@3 trên bộ câu hỏi này. B tạo thêm 124 chunk và mất thêm khoảng 4,42 giây ingest trong lần đo cuối. Đo thời gian một lần chịu ảnh hưởng cache và tải máy.
 - **B–C:** C chỉ đổi filter. Với q18 ở test, A/B lấy ba chunk từ chương 48, thiếu quote về thư nhanh từ ông Gardiner. C lọc chương 49 và lấy đúng bằng chứng ở hạng 2. Test Evidence Hit@3 tăng từ 2/5 lên 3/5, nhưng chỉ một câu test có filter.
 - **Lỗi:** q19 (Bingley đến một mình) và q20 (Bingley và Jane đi chậm) không có đủ bằng chứng trong top-3 của cả ba cấu hình. q19 trả về những chương khác về gia đình Bennet; q20 trả về đoạn liên quan đi bộ nhưng sai sự kiện. Không coi các đoạn có điểm cosine khá cao là câu trả lời đúng.
 - **Giới hạn:** Câu hỏi tiếng Việt trên nguồn tiếng Anh phụ thuộc năng lực đa ngữ của model. Nhiều câu dev/test còn dễ hoặc có nhắc chương; gold kiểm tra quote chính xác nên có thể bỏ sót bằng chứng diễn đạt tương đương. Tập test 5 câu có sai số lớn; nhãn audit có AI hỗ trợ nên vẫn có nguy cơ thiên lệch. Chi phí 0 USD chỉ nói về API, không bao gồm máy local.

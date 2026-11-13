@@ -64,6 +64,7 @@ docker compose -p day6_student_starter up -d --wait
 .\.venv\Scripts\python.exe scripts/check_setup.py
 .\.venv\Scripts\python.exe -m scripts.check_corpus
 .\.venv\Scripts\python.exe -m src.run
+.\.venv\Scripts\python.exe -m unittest discover -s tests -v
 .\.venv\Scripts\python.exe -m scripts.prepare_audit
 ```
 
